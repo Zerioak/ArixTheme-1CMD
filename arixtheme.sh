@@ -1,7 +1,16 @@
 #!/bin/bash
 # ==========================================
 # Arix Theme Installer for Pterodactyl Panel
+# Made by Zerioak | Join Discord: dcd.gg/ErixySMP
 # ==========================================
+
+set -e
+
+echo "=========================================="
+echo "     🚀 Installing ArixTheme for Pterodactyl"
+echo "     Made by Zerioak | dcd.gg/ErixySMP"
+echo "=========================================="
+sleep 2
 
 echo ">>> Switching to Pterodactyl directory..."
 cd /var/www/pterodactyl
@@ -31,4 +40,7 @@ systemctl restart pterodactyl.service
 echo ">>> Cleaning up..."
 rm -rf arix arix.zip
 
-echo ">>> ✅ Arix Theme installed successfully!"
+echo "=========================================="
+echo "✅ Arix Theme installed successfully!"
+echo "🎉 Credits: Made by Zerioak | dcd.gg/ErixySMP"
+echo "=========================================="
